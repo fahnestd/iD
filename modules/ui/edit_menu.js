@@ -36,7 +36,7 @@ export function uiEditMenu(context) {
 
     // offset the menu slightly from the target location
     var _menuSideMargin = 10;
-    
+
     // hardcoded values for repositioning the menu to account for the top menu height
     var _verticalOffset = 70;
 
