@@ -668,8 +668,6 @@ export function uiInit(context) {
 
         // render the menu onto the overmap
         overMap
-            // .append('div')
-            // .attr('class', 'menu-topbar-offset')
             .call(_editMenu);
     };
 
