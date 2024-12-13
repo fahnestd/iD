@@ -673,8 +673,9 @@ export function uiInit(context) {
 
     ui.closeEditMenu = function() {
         // remove any existing menu no matter how it was added
-       overMap
-            .select('.edit-menu').remove();
+        if (overMap !== undefined) {
+            overMap.select('.edit-menu').remove();
+        }
     };
 
 
