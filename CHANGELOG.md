@@ -44,6 +44,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :white_check_mark: Validation
 #### :bug: Bugfixes
 * Fix unsolvable validator error triggered by regional presets ([#10459])
+* Render highway direction cones only on matching parent ways ([#9013])
 * Prevent edit menu from being covered up by street level imagery or other map overlay panels ([#10495])
 #### :earth_asia: Localization
 * Update Sinitic languages in the Multilingual Names field ([#10488], thanks [@winstonsung])
@@ -55,6 +56,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :hammer: Development
 * Migrate unit tests from karma to vitest ([#10452])
 
+[#9013]: https://github.com/openstreetmap/iD/issues/9013
 [#10452]: https://github.com/openstreetmap/iD/pull/10452
 [#10459]: https://github.com/openstreetmap/iD/pull/10459
 [#10488]: https://github.com/openstreetmap/iD/pull/10488
